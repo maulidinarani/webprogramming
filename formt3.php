@@ -10,19 +10,19 @@
 
 <body>
 <?php
-$nama= $_GET['nama'];
-$alamat= $_GET['alamat'];
-$tmplahir= $_GET['tempat'];
-$tgllahir= $_GET['tanggal'];
-$jk= $_GET['jenis'];
-$pendidikan= $_GET['pendidikan'];
+$nama= $_POST['nama'];
+$alamat= $_POST['alamat'];
+$tmplahir= $_POST['tempat'];
+$tgllahir= $_POST['tanggal'];
+$jk= $_POST['jenis'];
+$pendidikan= $_POST['pendidikan'];
 ?>
 
 <div class="container">
 <div class="row">
 <div class="col-20 col-sm-20">
 <h2 class=" alert alert-primary text-center">Data Registarasi</h2>
-<form action="formt3.php" method="GET" enctype="">
+<form action="formt3.php" method="POST" enctype="">
 <table class="table table-bordered table-striped" border="5" cellspacing="5" cellpadding="5";>
 		<thead>
 			<tr>
