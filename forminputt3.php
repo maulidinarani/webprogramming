@@ -15,7 +15,7 @@
         <h1 class="text-center">Form Registrasi</h1>
         <hr>
         Isi Data dibawah ini:<br>
-        <form action="formt3.php" method="GET" enctype="">
+        <form action="formt3.php" method="POST" enctype="">
             <div class="mb-3">
                 <label for="nama" class="form-label">Nama</label> 
                 <input type="text" class="form-control" name="nama" id="nama" 
